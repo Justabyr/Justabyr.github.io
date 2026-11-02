@@ -1,3 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 :root {
     --fond-principal: #0F1424;
     --fond-cartes: #1A2235;
@@ -14,3 +21,15 @@ body {
     
 }
 
+a {
+    color: var(--texte-principal);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--boutons-hover);
+}
+
+ul {
+    list-style: none;
+}
