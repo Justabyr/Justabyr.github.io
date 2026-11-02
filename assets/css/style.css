@@ -1,3 +1,15 @@
+:root {
+    --fond-principal: #0F1424;
+    --fond-cartes: #1A2235;
+    --boutons-titres: #FF2E88;
+    --boutons-hover: #F472B6;
+    --texte-principal: #E5E7EB;
+    --texte-secondaire: #9CA3AF;
+}
+
 body {
-    background : lightblue;
+    background-color: var(--fond-principal);
+    color: var(--texte-principal);
+    font-family: "JetBrains Mono", monospace;
+    
 }
