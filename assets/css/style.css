@@ -21,6 +21,19 @@ body {
     
 }
 
+header {
+    display: flex;
+    background-color: var(--fond-cartes);
+    padding: 20px 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+}
+
 a {
     color: var(--texte-principal);
     text-decoration: none;
